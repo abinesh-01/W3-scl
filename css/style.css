@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+header .buttons button{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+header .icons .fa-solid{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.but1{
+    background: #000; 
+    color:#fff;
+}
+.but2{background:pink;}
+.but3{background:rgb(248, 248, 105);}
+.but4{
+    background:green; 
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.822);
+}
+.container .content{
+    text-align: center;
+    padding: 100px 0;
+}
+.container .content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.container .content h2{
+    color: pink;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.container .content .searchbox{
+    width: 550px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.container .content .searchbox input{
+    width: 100%;
+    height: 100%;
+    text-align: center start;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+.container .content .searchbox span{
+    width: 100px;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.container .content .anchortag a{
+    color: #fff;
+    font-size: 22px;
+}
+.container .content .anchortag a:hover{
+    color: green;
+}
+header .logo{
+    width: 50px;
+    height: 50px;
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+}
+/***** HTML Container ******/
+
+.html-container{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(203, 214, 210, 0.979);
+}
+.html-container .inner-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.html-container .inner-container .left-side{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+}
+.html-container .inner-container .left-side h1{
+    font-size: 70px;
+}
+.html-container .inner-container .left-side p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.html-container .inner-container .left-side .buttonsfour{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.html-container .inner-container .left-side .buttonsfour button{
+    width: 220px;
+    height: 40px;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.html-container .inner-container .left-side .buttonsfour .button1{
+    background-color: green;
+    color: #fff;
+}
+.html-container .inner-container .left-side .buttonsfour .button2{background-color: rgb(247, 247, 135);}
+.html-container .inner-container .left-side .buttonsfour .button3{
+    background-color: #000;
+    color: #fff;
+}
+.html-container .inner-container .left-side .buttonsfour .button4{background-color: rgb(223, 141, 155);}
+
+.html-container .inner-container .right-side{
+    width:50%;
+    height: 450px;
+    padding: 20px ;
+    margin: 80px 0;
+    margin-right: 30px;
+    border-radius: 8px;
+    font-weight: none;
+    background-color: rgba(247, 243, 243, 0.89);
+}
+.html-container .inner-container .right-side .div{
+    width: 98%;
+    height: 300px;
+    margin: 20px 0;
+    border-left: 5px solid green;
+    background-color: #fff;
+}
+.html-container .inner-container .right-side button{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.css-container{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(243, 189, 89, 0.986);
+}
+.javascript-container{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+}
+.python-container{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(230, 216, 218);
+}
+.six-box{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+.box{
+    min-width: 600px;
+    min-height: 250px;
+    background-color: pink;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+.six-box .box h1{
+   font-size: 35px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+.six-box .box p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.six-box .box button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background: #000;
+    color: #fff;
+}
+.box7{
+    width: 600px;
+    min-height: 150px;
+    color: #000;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box8{
+    width: 600px;
+    min-height: 150px;
+    color: #000;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.box1{background-color: pink;}
+.box2{background-color: rgb(235, 235, 140);}
+.box3{background-color: rgb(230, 221, 221);}
+.box4{background-color: aliceblue;}
+.box5{background-color: skyblue;}
+.box6{background-color: rgb(201, 191, 191);}
+
+.grid-container{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: grid;
+    grid-template: repeat(8,1fr) / repeat(4,1fr);
+    padding: 20px;
+    
+}
+.grid-container .item{
+    width: 270px;
+    height: 130px;
+    margin: 0 10px 40px 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.r{background-color:rgb(230, 221, 221) ;}
+.kotalin{background-color: skyblue;}
+.node{background-color: aliceblue;}
+.react{background-color: rgb(235, 235, 140);}
+.json{background-color: pink;}
+.angular{background-color:rgb(230, 221, 221) ;}
+.mysql{background-color: skyblue;}
+.xml{background-color: aliceblue;}
+.sass{background-color: rgb(235, 235, 140);}
+.iconss{background-color: pink;}
+.rwd{background-color:rgb(230, 221, 221) ;}
+.graphics{background-color: aliceblue;}
+.svg{background-color: rgb(235, 235, 140);}
+.canvas{background-color: pink;}
+.colors{background-color:rgb(230, 221, 221) ;}
+.git{background-color: skyblue;}
+.matplotlib{background-color: aliceblue;}
+.numpy{background-color: rgb(235, 235, 140);}
+.pandas{background-color:rgb(230, 221, 221) ;}
+.scipy{background-color: pink;}
+.asp{background-color: rgb(235, 235, 140);}
+.accessibity{background-color: aliceblue;}
+.appml{background-color:rgb(230, 221, 221) ;}
+.go{background-color: skyblue;}
+.typescript{background-color: pink;}
+.django{background-color: rgb(235, 235, 140);}
+.mangodb{background-color: skyblue;}
+.statistics{background-color:rgb(230, 221, 221) ;}
+.datascience{background-color: pink;}
+.typingspeed{background-color: aliceblue;}
+.github{background-color:rgb(230, 221, 221) ;}
+.script{background-color: rgb(235, 235, 140);}
+
+
+.fourbox{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+.fourbox .excel{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 140);
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.fourbox .googlesheets{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: skyblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.fourbox .machinelearning{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:rgb(230, 221, 221);
+    font-size: 35px;
+    font-weight: bold;
+}
+.fourbox .artificial{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: pink;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
